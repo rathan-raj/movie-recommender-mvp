@@ -2,7 +2,7 @@
 
 This is a simple Collaborative Filtering-based Movie Recommendation App built using Python, Pandas, Scikit-learn, and Streamlit. It utilizes the MovieLens 100k dataset to provide item-based movie recommendations to users based on their past ratings.
 
-📌 Features
+## Features
 Loads and merges movie rating data with movie titles.
 
 Creates a user-item matrix for collaborative filtering.
@@ -13,27 +13,27 @@ Recommends movies similar to a selected movie.
 
 Simple web interface using Streamlit.
 
-🚀 How to Run
+## How to Run
 Clone the repository or download the code.
 
 Make sure you have the required packages installed:
 
-pip install -r requirements.txt
+### pip install -r requirements.txt
 
 Run the Streamlit app:
 
 
-streamlit run app.py
+### streamlit run app.py
 
 
-📂 Dataset Used
+## Dataset Used
 Ratings: https://files.grouplens.org/datasets/movielens/ml-100k/u.data
 
 Movies: https://files.grouplens.org/datasets/movielens/ml-100k/u.item
 
 The dataset contains 100,000 ratings from 943 users on 1,682 movies.
 
-🛠️ Tech Stack
+## Tech Stack
 
 Python
 
@@ -45,7 +45,7 @@ Scikit-learn
 
 Streamlit
 
-🧠 Methodology
+## Methodology
 
 A User-Item Matrix is created from the merged dataset.
 
